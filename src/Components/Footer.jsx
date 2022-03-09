@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Youtube from "../Css/Logos/png/001-youtube.png";
 import Pinterest from "../Css/Logos/png/002-pinterest.png";
 import Spotify from "../Css/Logos/png/003-spotify.png";
@@ -11,7 +12,9 @@ export default function Footer() {
     <div id="footer_container">
       <section id="footer_Main">
         <div className="footer_Main_Columns">
-          <h1 className="footer_title">About Us</h1>
+          <Link to="/about-us">
+            <h1 className="footer_title">About Us</h1>
+          </Link>
           <p className="footer_subTitle">Our Company</p>
           <p className="footer_subTitle">Our Coffee</p>
           <p className="footer_subTitle">Stories and News</p>
