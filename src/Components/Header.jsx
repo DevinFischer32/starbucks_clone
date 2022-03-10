@@ -6,8 +6,8 @@ export default function Header() {
     <div>
       <div>
         <NavLink
-          className={(navData) => (navData.isActive ? classes.active : "")}
           to="/menu"
+          // className={(navData) => (navData.isActive ? classes.active : "")}
         >
           Menu
         </NavLink>
